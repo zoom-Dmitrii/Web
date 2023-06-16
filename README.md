@@ -90,7 +90,7 @@ Cоздать функцию greeting, которая принимает в ка
 	<age>"30"</age>
 	<phone>"Москва"</phone>
 	<birthplace>"+7 926 766 48 48"</birthplace>
-</user
+</user>
 
 ```
 

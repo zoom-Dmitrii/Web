@@ -1,0 +1,29 @@
+<!--
+Вводные данные
+<user>
+	<name>"Иван"</name>
+	<surname>"Иванов"</surname>
+	<patronymic>"Иванович"</patronymic>
+	<age>"30"</age>
+	<phone>"Москва"</phone>
+	<birthplace>"+7 926 766 48 48"</birthplace>
+</user
+-->
+
+<!-- XML пролог-->
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Добавли тег users, для возможности описания многих людей-->
+<users>
+	<user>
+		<!-- У всех тегов убрал в данных ковычки-->
+		<name>Иван</name>
+		<surname>Иванов</surname>
+		<patronymic>Иванович</patronymic>
+		<age>30</age>
+		<!-- Исправлены ошибки в названии тегов и их значений-->
+		<city>Москва</city>
+		<phone>+7 926 766 48 48</phone>
+		<birthplace> 01.10.2000</birthplace>
+		<!-- Добавил угловую скобку закрывающую в теге /user-->
+	</user>
+</users>
